@@ -13,6 +13,8 @@
 		A9920FAD1A3C20960079C20C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9920FAC1A3C20960079C20C /* Images.xcassets */; };
 		A9920FB01A3C20960079C20C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9920FAE1A3C20960079C20C /* LaunchScreen.xib */; };
 		A9920FBC1A3C20960079C20C /* Rome_PostCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9920FBB1A3C20960079C20C /* Rome_PostCardTests.swift */; };
+		A9920FC61A3C221D0079C20C /* Rome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9920FC51A3C221D0079C20C /* Rome.jpg */; };
+		A9920FC81A3C265F0079C20C /* Rome_stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9920FC71A3C265F0079C20C /* Rome_stamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A9920FB51A3C20960079C20C /* Rome PostCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rome PostCardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9920FBA1A3C20960079C20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9920FBB1A3C20960079C20C /* Rome_PostCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rome_PostCardTests.swift; sourceTree = "<group>"; };
+		A9920FC51A3C221D0079C20C /* Rome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rome.jpg; sourceTree = "<group>"; };
+		A9920FC71A3C265F0079C20C /* Rome_stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rome_stamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		A9920FA31A3C20960079C20C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A9920FC71A3C265F0079C20C /* Rome_stamp.jpg */,
+				A9920FC51A3C221D0079C20C /* Rome.jpg */,
 				A9920FA41A3C20960079C20C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,7 +200,9 @@
 			files = (
 				A9920FAB1A3C20960079C20C /* Main.storyboard in Resources */,
 				A9920FB01A3C20960079C20C /* LaunchScreen.xib in Resources */,
+				A9920FC61A3C221D0079C20C /* Rome.jpg in Resources */,
 				A9920FAD1A3C20960079C20C /* Images.xcassets in Resources */,
+				A9920FC81A3C265F0079C20C /* Rome_stamp.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
